@@ -1,0 +1,12 @@
+
+.whoami > article 
+{
+    margin-top: 5vh;
+    text-align: center;
+    color: lightgrey;
+}
+
+.whoami > article > a
+{
+    color: lightgrey;
+}

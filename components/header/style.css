@@ -1,5 +1,6 @@
 .header
 {
+    margin-top: 15vh;
     text-align: center;
 }
 
@@ -9,25 +10,9 @@
     src: url("PoetsenOne-Regular.ttf");
 }
 
-.header > #banner
+.header > #profile-picture
 {
     width: 100%;
-    height: 70vh;
-    background-image: url("../../img/banner.jpg");
-    background-size: cover;
-    background-position-y: -150px;
-
-    z-index: 1;
-}
-
-.header > #profile-picture 
-{
-    position: absolute;
-    width: 100%;
-    height: 70vh;
-    
-    background-color: #00000090;
-    z-index: 1;
 }
 
 .header > #profile-picture > img
@@ -41,7 +26,7 @@
 .header > #profile-picture > p 
 {
     font-family: Poetsen;
-    color: #19000b;
+    color: lightgrey;
     font-size: 32px;
     text-shadow: 1px 1px lightgrey;
 }
